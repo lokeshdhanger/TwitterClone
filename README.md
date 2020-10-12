@@ -1,6 +1,9 @@
 # TwitterClone
 this repository is test assignment for Walrus
 
+## create a MySQL database
+create database twitter
+
 ## stack
 > MySQL 5.6.x 
  >> username : root
