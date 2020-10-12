@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "83c34750-0b23-44b1-8317-4e86f9bcee25",
+		"name": "twitter/users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/search?username=alpha",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/search?username=alpha",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "alpha"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/follow?username=xarvis",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/follow?username=xarvis",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"follow"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "xarvis"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
